@@ -9,8 +9,8 @@ MAINTAINER	David H. Barnes <david@davidbarnes.net>
 RUN		apt-get update -qq
 
 RUN		apt-get install -qqy automake
-RUN   apt-get install -qqy build-essential
-RUN   apt-get install -qqy libcurl4-gnutls-dev
+RUN     apt-get install -qqy build-essential
+RUN     apt-get install -qqy libcurl4-gnutls-dev
 RUN		apt-get install -qqy libcurl4-openssl-dev
 RUN		apt-get install -qqy git
 RUN		apt-get install -qqy make
